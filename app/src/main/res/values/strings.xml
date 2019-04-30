@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Nabophial</string>
+    <string name="other">Autre</string>
+    <string name="settings">Parametres</string>
 </resources>
