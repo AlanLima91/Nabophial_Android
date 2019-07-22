@@ -1,4 +1,4 @@
-package com.example.nabophial;
+package nabophial;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
