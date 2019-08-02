@@ -18,6 +18,29 @@ public class Performance {
     @Expose
     private Sport sport;
 
+    /**
+     * No args constructor for use in serialization
+     *
+     */
+    public Performance() {
+    }
+
+    /**
+     *
+     * @param id
+     * @param typePerformance
+     * @param name
+     * @param sport
+     */
+    public Performance(Integer id, String name, TypePerformance typePerformance, Sport sport) {
+        super();
+        this.id = id;
+        this.name = name;
+        this.typePerformance = typePerformance;
+        this.sport = sport;
+    }
+
+
     public Integer getId() {
         return id;
     }

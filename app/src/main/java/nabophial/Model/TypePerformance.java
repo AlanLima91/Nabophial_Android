@@ -12,6 +12,25 @@ public class TypePerformance {
     @Expose
     private String name;
 
+    /**
+     * No args constructor for use in serialization
+     *
+     */
+    public TypePerformance() {
+    }
+
+    /**
+     *
+     * @param id
+     * @param name
+     */
+    public TypePerformance(Integer id, String name) {
+        super();
+        this.id = id;
+        this.name = name;
+    }
+
+
     public Integer getId() {
         return id;
     }

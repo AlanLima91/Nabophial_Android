@@ -12,6 +12,24 @@ public class Region {
     @Expose
     private String name;
 
+    /**
+     * No args constructor for use in serialization
+     *
+     */
+    public Region() {
+    }
+
+    /**
+     *
+     * @param id
+     * @param name
+     */
+    public Region(Integer id, String name) {
+        super();
+        this.id = id;
+        this.name = name;
+    }
+
     public Integer getId() {
         return id;
     }

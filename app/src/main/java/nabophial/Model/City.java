@@ -15,6 +15,26 @@ public class City {
     @Expose
     private Departement departement;
 
+    /**
+     * No args constructor for use in serialization
+     *
+     */
+    public City() {
+    }
+
+    /**
+     *
+     * @param id
+     * @param name
+     * @param departement
+     */
+    public City(Integer id, String name, Departement departement) {
+        super();
+        this.id = id;
+        this.name = name;
+        this.departement = departement;
+    }
+
     public Integer getId() {
         return id;
     }

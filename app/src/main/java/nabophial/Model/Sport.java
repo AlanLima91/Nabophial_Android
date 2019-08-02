@@ -11,6 +11,24 @@ public class Sport {
     @Expose
     private String name;
 
+    /**
+     * No args constructor for use in serialization
+     *
+     */
+    public Sport() {
+    }
+
+    /**
+     *
+     * @param id
+     * @param name
+     */
+    public Sport(Integer id, String name) {
+        super();
+        this.id = id;
+        this.name = name;
+    }
+
     public Integer getId() {
         return id;
     }

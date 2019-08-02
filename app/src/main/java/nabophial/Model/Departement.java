@@ -15,6 +15,27 @@ public class Departement {
     @Expose
     private Region region;
 
+    /**
+     * No args constructor for use in serialization
+     *
+     */
+    public Departement() {
+    }
+
+    /**
+     *
+     * @param region
+     * @param id
+     * @param name
+     */
+    public Departement(Integer id, String name, Region region) {
+        super();
+        this.id = id;
+        this.name = name;
+        this.region = region;
+    }
+
+
     public Integer getId() {
         return id;
     }
