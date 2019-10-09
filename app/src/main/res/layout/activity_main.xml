@@ -89,7 +89,9 @@
                 android:textSize="17sp"
                 android:layout_marginStart="8dp"
                 android:text="@string/signup"
-                android:focusable="true" />
+                android:focusable="true"
+                android:onClick="SignUp"
+                android:clickable="true" />
 
         </LinearLayout>
 
@@ -105,7 +107,9 @@
                 android:textColor="@color/white"
                 android:textSize="17sp"
                 android:text="@string/forget_password"
-                android:focusable="true" />
+                android:focusable="true"
+                android:onClick="ResetPassword"
+                android:clickable="true" />
 
         </LinearLayout>
 
@@ -114,7 +118,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:alpha="0.50"
+        android:alpha="0.25"
         android:background="@drawable/bg_blackfilter"
         >
 

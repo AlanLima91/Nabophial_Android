@@ -39,6 +39,10 @@ public class MainActivity extends AppCompatActivity
         });
     }
 
+    public void SignUp(View v) {  }
+
+    public void ResetPassword(View v) {  }
+
     public boolean login()
     {
         return true ;
