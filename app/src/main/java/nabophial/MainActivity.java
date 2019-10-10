@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ResetPassword(View view) {
-       // startActivity(new Intent(this, ResetPasswordActivity.class));
+        startActivity(new Intent(this, ResetPasswordActivity.class));
     }
 
     public void openHomepage(View view) {
