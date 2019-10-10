@@ -7,7 +7,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import nabophial.Model.AuthToken;
@@ -25,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
     public String TokenNow;
     private EditText email;
     private EditText password;
-    private TextView signup;
-    private TextView forgetPass;
     private Button loginBtn;
 
     @Override
@@ -36,8 +33,6 @@ public class MainActivity extends AppCompatActivity {
 
         email = findViewById(R.id.email);
         password = findViewById(R.id.password);
-        signup = findViewById(R.id.signup);
-        forgetPass = findViewById(R.id.forget_password);
         loginBtn = findViewById(R.id.loginBtn);
 
         loginBtn.setOnClickListener(new View.OnClickListener() {
