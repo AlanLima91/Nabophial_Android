@@ -5,71 +5,23 @@ import com.google.gson.annotations.SerializedName;
 
 public class AuthToken {
 
-    @SerializedName("id")
+    @SerializedName("token")
     @Expose
-    private Integer id;
-    @SerializedName("value")
-    @Expose
-    private String value;
-    @SerializedName("createdAt")
-    @Expose
-    private String createdAt;
-    @SerializedName("user")
-    @Expose
-    private User user;
+    private String token;
 
     /**
-     * No args constructor for use in serialization
-     *
+     * @param token
      */
-    public AuthToken() {
-    }
-
-    /**
-     *
-     * @param id
-     * @param createdAt
-     * @param value
-     * @param user
-     */
-    public AuthToken(Integer id, String value, String createdAt, User user) {
+    public AuthToken(String token) {
         super();
-        this.id = id;
-        this.value = value;
-        this.createdAt = createdAt;
-        this.user = user;
+        this.token = token;
     }
 
-    public Integer getId() {
-        return id;
+    public String getToken() {
+        return token;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setToken(String token) {
+        this.token = token;
     }
-
-    public String getValue() {
-        return value;
-    }
-
-    public void setValue(String value) {
-        this.value = value;
-    }
-
-    public String getCreatedAt() {
-        return createdAt;
-    }
-
-    public void setCreatedAt(String createdAt) {
-        this.createdAt = createdAt;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
-
 }
