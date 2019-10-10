@@ -14,5 +14,9 @@
     <string name="firstName">Prénom</string>
     <string name="lastName">Nom</string>
     <string name="SignUp">Inscription</string>
+    <string name="NotRegisterYet">Pas encore de compte ?</string>
+    <string name="submit">Envoyer</string>
+    <string name="ResetPassword">Mot de passe oublié</string>
+    <string name="explainResetPass">saisissez votre mot de passe pour reinitialiser votre mot de passe</string>
 
 </resources>

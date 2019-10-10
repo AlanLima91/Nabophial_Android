@@ -74,16 +74,26 @@
             android:layout_marginBottom="14sp"
             android:layout_height="wrap_content">
 
+<<<<<<< HEAD
+            <Button
+=======
             <TextView
+>>>>>>> Philippe
                 android:id="@+id/signup"
+                android:background="@drawable/bg_other_button"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:textColor="@color/white"
-                android:textSize="17sp"
+                android:textSize="16sp"
                 android:layout_marginStart="8dp"
-                android:text="@string/signup"
+                android:text="@string/SignUp"
                 android:focusable="true"
                 android:onClick="SignUp"
+<<<<<<< HEAD
+                android:clickable="true"
+                android:layout_margin="10sp"
+                android:padding="5sp"/>
+=======
                 android:clickable="true" />
 
         </LinearLayout>
@@ -93,17 +103,21 @@
             android:orientation="horizontal"
             android:layout_height="wrap_content"
             android:gravity="center">
+>>>>>>> Philippe
 
-            <TextView
+            <Button
                 android:id="@+id/forget_password"
+                android:background="@drawable/bg_reverse_other_btn"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:textColor="@color/white"
-                android:textSize="17sp"
+                android:textSize="16sp"
                 android:text="@string/forget_password"
                 android:focusable="true"
                 android:onClick="ResetPassword"
-                android:clickable="true" />
+                android:clickable="true"
+                android:layout_margin="10sp"
+                android:padding="5sp"/>
 
         </LinearLayout>
 
