@@ -5,6 +5,7 @@ import nabophial.Model.AuthToken;
 
 import java.util.List;
 
+import nabophial.Model.User;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
@@ -19,5 +20,12 @@ public interface RetrofitService {
     @FormUrlEncoded
     Call<AuthToken> login(@Field("email") String email,
                         @Field("plainPassword") String plainPassword);
+
+	@POST("/signup")
+    @FormUrlEncoded
+    Call<User> signup(@Field("email") String email,
+                      @Field("plainPassword") String plainPassword,
+                      @Field("firstName") String firstName,
+                      @Field("lastName") String lastName);
 
 }
