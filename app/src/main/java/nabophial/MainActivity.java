@@ -84,9 +84,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openHomepage(View view) {
-        // Not the right Activity, made it just for the test and it works
         startActivity(new Intent(this, HomeActivity.class));
-        Toast.makeText(getApplicationContext(), TokenNow, Toast.LENGTH_LONG).show();
     }
 
 }
