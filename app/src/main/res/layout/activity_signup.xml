@@ -1,15 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_boxe"
     tools:context=".SignupActivity">
-    <ListView
+
+    <LinearLayout
+        android:background="@drawable/bg_card"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:alpha="0.80"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="170dp"
+        android:padding="18sp" >
 
-    </ListView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="@string/welcome"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="@string/expactation"/>
 
+        <EditText
+            android:id="@+id/email"
+            android:layout_marginTop="28dp"
+            android:hint="@string/email"
+            android:paddingStart="18dp"
+            android:background="@drawable/bg_editext"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_marginTop="14dp"
+            android:hint="@string/password"
+            android:textColor="@color/white"
+            android:paddingStart="18dp"
+            android:background="@drawable/bg_editext"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/repeatedPassword"
+            android:layout_marginTop="14dp"
+            android:hint="@string/repeatedPassword"
+            android:textColor="@color/white"
+            android:paddingStart="18dp"
+            android:background="@drawable/bg_editext"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_marginTop="14dp"
+            android:hint="@string/firstName"
+            android:textColor="@color/white"
+            android:paddingStart="18dp"
+            android:background="@drawable/bg_editext"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_marginTop="14dp"
+            android:hint="@string/lastName"
+            android:textColor="@color/white"
+            android:paddingStart="18dp"
+            android:background="@drawable/bg_editext"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_btn"
+            android:textColor="@color/white"
+            android:text="@string/SignUp"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.20"
+        android:background="@drawable/bg_blackfilter"
+        >
+
+    </LinearLayout>
 </RelativeLayout>
