@@ -8,8 +8,7 @@
     <string name="password">Mot de Passe</string>
     <string name="signin">Connexion</string>
     <string name="expactation">Nous vous attendions</string>
-    <string name="signup">Inscrivez vous</string>
-    <string name="no_account">Toujours pas de compte ?</string>
+    <string name="signup">Toujours pas de compte ? Inscrivez vous !</string>
     <string name="forget_password">Mot de passe oublié</string>
     <string name="repeatedPassword">Repeter votre mot de passe</string>
     <string name="firstName">Prénom</string>
