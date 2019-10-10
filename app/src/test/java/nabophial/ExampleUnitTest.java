@@ -1,4 +1,4 @@
-package com.example.nabophial;
+package nabophial;
 
 import org.junit.Test;
 

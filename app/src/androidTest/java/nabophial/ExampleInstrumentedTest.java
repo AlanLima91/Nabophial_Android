@@ -1,4 +1,4 @@
-package com.example.nabophial;
+package nabophial;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.nabophial", appContext.getPackageName());
+        assertEquals("nabophial", appContext.getPackageName());
     }
 }
