@@ -18,5 +18,6 @@
     <string name="submit">Envoyer</string>
     <string name="ResetPassword">Mot de passe oublié</string>
     <string name="explainResetPass">saisissez votre mot de passe pour reinitialiser votre mot de passe</string>
+    <string name="updateProfile">mettre à jour</string>
 
 </resources>
