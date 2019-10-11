@@ -1,6 +1,6 @@
 package nabophial.Network;
 
-import nabophial.Model.AuthToken;
+import nabophial.Model.Session;
 
 
 import java.util.List;
@@ -18,7 +18,7 @@ public interface RetrofitService {
     
 	@POST("/login")
     @FormUrlEncoded
-    Call<AuthToken> login(@Field("email") String email,
+    Call<Session> login(@Field("email") String email,
                         @Field("plainPassword") String plainPassword);
 
 	@POST("/signup")
